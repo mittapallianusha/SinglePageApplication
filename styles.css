@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.logo {
+    max-width: 120px;
+}
+
+#queryList {
+    cursor: pointer;
+}
+
+#chatBox {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    margin:10px ;
+}
+
+#userInput {
+    width: 100%;
+}
+.container-fluid{
+    background-color: #86AB89;
+    
+}
+.main-logo{
+    background-color: #E7FBE6;
+    align-items: center;
+}
+.heading{
+    padding: 3%;
+    color: #A28B55;
+    text-decoration: underline;
+}
+.list-group{
+    padding: 20px;
+    border-radius: 10px;
+}
+.query{
+    text-align: center;
+    margin-top: 10px;
+}
+.query-block{
+    text-align: right;
+    background-color: #CBE2B5;
+    padding: 6px;
+    border-radius: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+}
+.solution-block{
+    text-align: left;
+    background-color: #CBE2B5;
+    padding: 6px;
+    border-radius: 10px 10px 10px 0px;
+}

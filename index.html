@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple chatbot</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row main-logo">
+            <div class="col-4 ">
+                <img src="logobg.png" alt="Logo" class="logo">
+            </div>
+            <div class="col-8 heading">
+                <h3>Contact/Support</h3>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-6 query border-right">
+                <h4>Insurance Queries</h4>
+                <ul class="list-group" id="queryList">
+                    <li class="list-group-item" id="q1" value="query1" data-answer="Life insurance provides a lump sum to your beneficiaries in the event of your death.">What is life insurance?</li>
+                    <li class="list-group-item" id="q2" data-answer="Car insurance covers damage to your vehicle and liability for injuries and damages caused to others.">What does car insurance cover?</li>
+                    <li class="list-group-item" id="q3" data-answer="Health insurance helps cover medical expenses, including doctor's visits, hospital stays, and prescriptions.">How does health insurance work?</li>
+                    <li class="list-group-item" id="q4" data-answer="Home insurance protects your home and belongings from damage and theft.">Why do I need home insurance?</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Chat Section</h4>
+                <div id="chatBox" class="border rounded p-3 mb-3">
+                    <div class="row">
+                        <div id="chatBot">
+                            
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
